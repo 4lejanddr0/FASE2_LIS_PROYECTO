@@ -1,0 +1,323 @@
+/*------------------------GLOBAL-------------------------------------- */
+
+
+
+
+div#img{
+  position: absolute;
+    top: 5.0em;
+    left: 40vw;
+    width: 6vw;         
+        
+    }
+
+.button:hover {
+            
+            background-color: white;
+            color: black;
+        }
+
+
+.button {
+            /*boton agregar */
+            background-color: gray;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            padding: 16px 50px;
+            text-align: center;
+            font-size: 16px;
+            border: 2px solid black;
+
+}
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    
+}
+
+
+
+ /*------------------------INDEX-------------------------------------- */
+
+
+
+
+div#log1{
+  position: absolute;
+    top: 20.0em;
+    left: 45vw;
+    width: 11vw;
+        
+    }
+
+
+div#acept1{
+  position: absolute;
+    top: 27.0em;
+    left: 45vw;
+    width: 11vw;         
+        
+    }
+div#p1{
+  position: absolute;
+    top: 11.0em;
+    left: 8vw;
+    width: 11vw;
+        color: white;
+
+    }
+div#img1{
+  position: absolute;
+    top: 5.0em;
+    left: 42vw;
+    width: 1vw; 
+
+ }
+
+div#b1{
+  position: absolute;
+    top: 14.0em;
+    left: 5vw;
+    width: 1vw; 
+    color: white;
+
+ }
+ /*------------------------opciones-------------------------------------- */
+
+
+div#entradas{
+  position: absolute;
+    top: 10.0em;
+    left: 10vw;
+    width: 11vw;
+        
+    }
+div#pagos{
+  position: absolute;
+    top: 25.0em;
+    left: 10vw;
+    width: 11vw;
+        
+    }
+div#ventradas{
+  position: absolute;
+    top: 25.0em;
+    left: 65vw;
+    width: 11vw;
+        
+    }
+div#vpagos{
+  position: absolute;
+    top: 10.0em;
+    left: 65vw;
+    width: 11vw;
+        
+    }
+div#balance{
+  position: absolute;
+    top: 10.0em;
+    left: 38vw;
+    width: 11vw;
+        
+    }
+div#ingremonto{
+  position: absolute;
+    top: 12.0em;    left: 35vw;    width: 35vw;  color: white;
+             font-size: 25px;
+   
+    }
+
+div#img2{
+  position: absolute;
+    top: 4.0em;
+    left: 40vw;
+    width: 11vw;
+        
+    }
+
+
+div#salilog{
+  position: absolute;
+    top: 25.0em;
+    left: 40vw;
+    width: 10vw;
+        
+    }
+
+
+
+
+ /*------------------------DEPOSITO-------------------------------------- */
+
+
+div#log2{
+  position: absolute;
+    top: 17.0em;
+    left: 40vw;
+    width: 15vw;
+        
+    }
+
+div#enviar{
+  position: absolute;
+    top: 35.0em;
+    left: 45vw;
+    width: 15vw;
+        
+    }
+
+
+div#ingremonto2{
+  position: absolute;
+    top: 15.0em;
+    left: 40vw;
+    width: 25vw;
+        color: white;
+    }
+
+
+div#menup{
+  position: absolute;
+    top: 30.0em;
+    left: 10vw;
+    width: 10vw;
+        
+    }
+
+ /*------------------------DEPOSITO-------------------------------------- */
+
+
+div#pag1{
+  position: absolute;
+    top: 14.0em;
+    left: 40vw;
+    width: 15vw;
+        
+    }
+
+
+div#pag2{
+  position: absolute;
+    top: 13.0em;
+    left: 40vw;
+    width: 15vw;
+    color: white;
+        
+    }
+
+
+
+ /*------------------------ver deposito-------------------------------------- */
+
+
+#mitabla {
+  width: 80%;
+  height: 4000px;
+    text-decoration-color: white;
+    top: 16.0em;
+    left: 35vw;
+}
+
+
+div#vermontos{
+  position: absolute;
+    top: 6.0em;
+    left: 30vw;
+    width: 45vw;
+    color: white;
+        font-size:35px;
+
+        
+    }
+
+div#tabla1{
+  position: absolute;
+    top: 15.0em;
+    left: 35vw;
+    width: 25vw;
+    color: white;
+        font-size: 20px;
+
+        
+    }
+
+ /*------------------------BALANCE-------------------------------------- */
+
+
+
+
+div#balancetex{
+  position: absolute;
+    top: 2.0em;
+    left: 10vw;
+    width: 45vw;
+    color: white;
+        font-size:35px;
+
+        
+    }
+
+div#maso{
+  position: absolute;
+    top: 2.0em;
+    left: 80vw;
+    width: 10vw;
+        
+    }
+
+
+
+
+div#tablabala1{
+  position: absolute;
+    top: 15.0em;
+    left: 20vw;
+    width: 10vw;
+        
+    }
+
+div#tablabala2{
+  position: absolute;
+    top: 15.0em;
+    left: 60vw;
+    width: 30vw;
+        
+    }
+
+
+
+div#grafica{
+  position: absolute;
+    top: 50.0em;
+    left: 20vw;
+    width: 50vw;
+    
+        
+    }
+
+
+div#export{
+  position: absolute;
+    top: 8.0em;
+    left: 80vw;
+    width: 10vw;
+    
+        
+    }
+
+
+/*------------------------PERFIL-------------------------------------- */
+.table {
+    top: 8.0em;
+    left: 80vw;
+    width: 10vw;
+}
+
+div#tabla {
+    position: absolute;
+    top: 8.0em;
+    left: 80vw;
+    width: 10vw;
+}

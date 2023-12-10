@@ -1,0 +1,624 @@
+ /*------------------------GLOBAL-------------------------------------- */
+
+
+body {
+ 
+    background-image: url('fondolog1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+div#cuponera {
+    position: absolute;
+    top: 2.0em;
+    left: 10vw;
+ 
+}
+.cuponera {
+    font-size: 35px;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial Black;
+    color: white;
+}
+
+.bar {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    color: white;
+    font-size: 23px;
+}
+
+div#opciones {
+    position: absolute;
+    top: 1.0em;
+    left: 70vw;
+    width: 30vw;
+}
+.botonlog {
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+}
+/*------------------------INICIO-------------------------------------- */
+
+
+div#registro {
+    position: absolute;
+    top: 1.0em;
+    left: 70vw;
+    width: 10vw;
+}
+
+div#login {
+    position: absolute;
+    top: 1.0em;
+    left: 80vw;
+    width: 10vw;
+}
+
+div#informacion {
+    position: absolute;
+    top: 1.0em;
+    left: 60vw;
+    width: 10vw;
+}
+/*------------------------INICIO-PROMOS-------------------------------------- */
+
+.tienda {
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial Black;
+    color: white;
+}
+
+
+div#adidas {
+    position: absolute;
+    top: 40em;
+    left: 10vw;
+    width: 10vw;
+}
+
+div#nike {
+    position: absolute;
+    top: 40em;
+    left: 40vw;
+    width: 10vw;
+}
+
+div#cardin {
+    position: absolute;
+    top: 40em;
+    left: 70vw;
+    width: 20vw;
+}
+
+
+div#movistar {
+    position: absolute;
+    top: 63em;
+    left: 10vw;
+    width: 10vw;
+}
+
+
+div#claro {
+    position: absolute;
+    top: 63em;
+    left: 40vw;
+    width: 10vw;
+}
+
+div#tigo {
+    position: absolute;
+    top: 63em;
+    left: 70vw;
+    width: 10vw;
+}
+
+div#pepsi {
+    position: absolute;
+    top: 85em;
+    left: 10vw;
+    width: 10vw;
+}
+
+div#coca {
+    position: absolute;
+    top: 85em;
+    left: 40vw;
+    width: 20vw;
+}
+
+div#wendys {
+    position: absolute;
+    top: 85em;
+    left: 70vw;
+    width: 10vw;
+}
+
+div#welcome {
+    position: absolute;
+    top: 25em;
+    left: 10vw;
+    width: 50vw;
+}
+
+.welcome {
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial Black;
+    color: white;
+}
+
+
+/*------------------------FIN-INICIO-PROMOS-------------------------------------- */
+
+
+body {
+    margin: 0;
+}
+/*------------------------SLIDER-------------------------------------- */
+
+div#slider {
+    overflow: hidden;
+    position: absolute;
+    top: 8em;
+    left: 1vw;
+}
+    /* las imágenes no van a salir del márgen de la pantalla*/
+    div#slider figure img {
+        width: 98vw;
+        height 10vw;
+        float: left;
+    
+    }
+
+    div#slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 10s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+    }
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+/*------------------------REGISTRO-------------------------------------- */
+div#registro {
+    position: absolute;
+    top: 1.0em;
+    left: 40vw;
+    width: 10vw;
+}
+
+div#registrarme {
+    position: absolute;
+    top: 20.0em;
+    left: 2vw;
+    width: 10vw;
+}
+div#label {
+    position: absolute;
+    top: 10.0em;
+    left: 1vw;
+    width: 10vw;
+}
+div#registroimg {
+    position: absolute;
+    top: 1.0em;
+    left: 4vw;
+    width: 10vw;
+}
+
+div#registrarme {
+    position: absolute;
+    top: 35.0em;
+    left: 4vw;
+    width: 10vw;
+}
+
+.registro {
+    width: 220px;
+    height: 25px;
+    border-radius: 25px;
+}
+div#terminos {
+    position: absolute;
+    top: 34.0em;
+    left: 40vw;
+    width: 40vw;
+}
+.error {
+    font-size: 35px;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial Black;
+    color: white;
+}
+/*------------------------LOGIN-------------------------------------- */
+div#logimg {
+    position: absolute;
+    top: 0.0em;
+    left: 5vw;
+    width: 10vw;
+}
+
+div#login {
+    position: absolute;
+    top: 7.0em;
+    left: 40vw;
+    width: 10vw;
+
+}
+
+div#transparente {
+    position: absolute;
+    top: 5.0em;
+    left: 38vw;
+    width: 350px;
+    height: 450px;
+    background: black;
+    opacity: .5;
+}
+
+.transparente {
+    border-radius: 25px;
+}
+
+
+.loginc {
+    width: 220px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+div#loginput {
+    position: absolute;
+    top: 10.0em;
+    left: 2vw;
+    width: 10vw;
+}
+div#passimg {
+    position: absolute;
+    top: 21.0em;
+    left:  39.7vw;
+    width: 10vw;
+}
+
+div#usuimg {
+    position: absolute;
+    top: 18.0em;
+    left: 34em;
+    width: 10vw;
+}
+
+
+
+div#loginboton {
+    position: absolute;
+    top: 18.0em;
+    left: 6vw;
+    width: 10vw;
+}
+
+.botonlog {
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+}
+
+.botonlog:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+/*------------------------LOGIN-------------------------------------- */
+
+    /*------------------------SELECCION-------------------------------------- */
+
+div#metodo {
+    position: absolute;
+    top: 10.0em;
+    left: 35vw;
+}
+
+
+.metodo {
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial Black;
+    color: white;
+}
+
+.seleccionboton {
+    width: 220px;
+    height: 40px;
+    border-radius: 25px;
+}
+div#seleccionboton {
+    position: absolute;
+    top: 17.0em;
+    left: 38vw;
+
+}
+
+div#seleccionboton2 {
+    position: absolute;
+    top: 24.0em;
+    left: 38vw;
+}
+
+div#transparenteselec {
+    position: absolute;
+    top: 10.0em;
+    left: 28vw;
+    width: 550px;
+    height: 350px;
+    background: black;
+    opacity: .5;
+}
+
+.transparenteselec {
+    border-radius: 25px;
+}
+
+
+
+    /*------------------------SELECCION-------------------------------------- */
+
+
+/*------------------------NOLOGIN-------------------------------------- */
+
+div#seleccionboton3 {
+    position: absolute;
+    top: 27.0em;
+    left: 38vw;
+
+}
+
+
+/*------------------------APROBACION-------------------------------------- */
+
+div#fondo {
+    position: absolute;
+    top: 9.0em;
+    left: 30vw;
+    width: 500px;
+    height: 350px;
+    background: black;
+    opacity: .5;
+}
+
+.fondo {
+    border-radius: 25px;
+}
+
+
+/*------------------------PERFIL-------------------------------------- */
+
+
+div#tabla {
+    position: absolute;
+    top: 12.0em;
+    left: 25vw;
+    width: 10vw;
+}
+.table {
+    font-size: 15px;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial Black;
+    color: white;
+}
+
+
+div#autorizar {
+    position: absolute;
+    top: 10.0em;
+    left: 70vw;
+    width: 10vw;
+}
+
+.perfil {
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+
+/*------------------------PERFIL-------------------------------------- */
+div#pago {
+    position: absolute;
+    top: 8.0em;
+    left: 25vw;
+    width: 700px;
+    height: 425px;
+    background: black;
+    opacity: .5;
+}
+
+.pago {
+    border-radius: 25px;
+}
+
+/*------------------------PAG-------------------------------------- */
+
+
+div#nombre {
+    position: absolute;
+    top: 15.0em;
+    left: 30vw;
+    width: 10vw;
+}
+
+div#n-tarjeta {
+    position: absolute;
+    top: 20.0em;
+    left: 30vw;
+    width: 10vw;
+}
+
+div#fecha {
+    position: absolute;
+    top: 25.0em;
+    left: 30vw;
+    width: 10vw;
+}
+
+div#cvv {
+    position: absolute;
+    top: 25.0em;
+    left: 55vw;
+    width: 10vw;
+}
+
+.n-tarjeta {
+    width: 550px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+div#visa {
+    position: absolute;
+    top: 9.0em;
+    left: 40vw;
+    width: 10vw;
+}
+
+div#aceptar {
+    position: absolute;
+    top: 30.0em;
+    left: 60vw;
+    width: 10vw;
+}
+div#atras {
+    position: absolute;
+    top: 30.0em;
+    left: 30vw;
+    width: 10vw;
+}
+
+
+div#estado {
+    position: absolute;
+    top: 20.0em;
+    left: 70vw;
+    width: 30vw;
+}
+
+
+/*------------------------COMPRA-------------------------------------- */
+
+
+div#bmovistar {
+    position: absolute;
+    top: 18.0em;
+    left: 10vw;
+    width: 10vw;
+}
+
+div#btigo {
+    position: absolute;
+    top: 18.0em;
+    left: 10vw;
+    width: 10vw;
+}
+
+div#bclaro {
+    position: absolute;
+    top: 18.0em;
+    left: 10vw;
+    width: 10vw;
+}
+
+div#badidas {
+    position: absolute;
+    top: 19.0em;
+    left: 12vw;
+    width: 10vw;
+}
+
+div#bnike {
+    position: absolute;
+    top: 19.0em;
+    left: 12vw;
+    width: 10vw;
+}
+
+div#bcardin {
+    position: absolute;
+    top: 19.0em;
+    left: 12vw;
+    width: 10vw;
+}
+
+div#registro12 {
+    position: absolute;
+    top: 1.0em;
+    left: 40vw;
+    width: 10vw;
+}
+
+div#registrarme12 {
+    position: absolute;
+    top: 40.0em;
+    left: 5vw;
+    width: 10vw;
+}
+
+div#terminos12 {
+    position: absolute;
+    top: 37.0em;
+    left: 45vw;
+    width: 10vw;
+}
+

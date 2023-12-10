@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\database",
+    "\\database\\migrations",
+    "\\public",
+    "\\public\\css",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\views"
+  ],
+  "SelectedNode": "\\resources\\views\\compraempresa.php",
+  "PreviewInSolutionExplorer": false
+}
